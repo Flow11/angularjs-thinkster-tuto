@@ -8,7 +8,7 @@ var app = angular.module('angNewsApp', [
   'ngRoute',
   'firebase',
   'angularSpinner'
-]).constant('FIREBASE_URL', 'https://vivid-fire-9895.firebaseio.com/');
+]).constant('FIREBASE_URL', '');
 app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
