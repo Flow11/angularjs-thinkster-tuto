@@ -18,7 +18,7 @@
         <span>{{ post.score || 0 }} votes</span>
         &mdash;
         <span>submitted by <a href="#/users/{{ post.owner }}">{{ post.owner }}</a></span>
-        <p><a href="#/posts/{{ postId }}">comments ({{commentsCount(postId)}})</a></p>
+        <p><a href="#/posts/{{ postId }}">comments</a></p>
         <a ng-click="deletePost(postId)" ng-show="signedIn() && post.owner === currentUser.userName">(delete)</a>
       </div>
     </div>
